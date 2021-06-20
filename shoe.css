@@ -1,0 +1,21 @@
+.buttonback{
+    background-color: aqua;   
+    font-size: large;
+    color: blue;
+   }
+   #glow1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #114df0, 0 0 40px #23ec08, 0 0 50px #f00707, 0 0 60px #dbf307, 0 0 70px #ff7b00;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(255, 6, 6), 0 0 30px #1900ff, 0 0 40px #bbff00, 0 0 50px #00ffea, 0 0 60px #4400ff, 0 0 70px #00ffead0, 0 0 80px #4dffb5;
+    }
+  }
